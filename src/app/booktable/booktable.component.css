@@ -1,0 +1,81 @@
+.booking
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.gif
+{
+    margin-top: 20%;
+}
+.bookform
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.top-pickers
+{
+    display:flex;
+    flex-direction: column;
+    width: fit-content;  
+    font-size: 20px; 
+    margin: 10px 0 20px 0;
+}
+.top-pickers label
+{
+    padding-top: 10px;
+}
+form
+{
+   
+    display:flex;
+    flex-direction: column;
+    width: fit-content;
+    font-size: 20px;
+    justify-content: center;
+    background-color: darkolivegreen;
+    padding: 10px 40px 10px 40px;
+    border-radius: 4px;
+}
+input
+{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form label
+{
+    text-align: left;
+    padding-top: 16px;
+}
+select
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+button
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(39, 162, 219);
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    color: white;
+}
+button:hover
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(39, 162, 219);
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(9, 122, 175);
+}

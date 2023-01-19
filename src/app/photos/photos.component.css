@@ -1,0 +1,25 @@
+.geeks img {
+    width: 75%;
+    height: 51%;
+    transition: 0.5s all ease-out;
+    padding-left: 31px;
+    padding-right: 30px;
+    padding-top: 37px;
+}
+.geeks:hover img {
+transform: scale(1.5);
+}
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery
+{
+    margin: 0 auto;
+    float:left;
+    width: 192px;
+    overflow: hidden;
+}
+

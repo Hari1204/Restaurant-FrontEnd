@@ -1,0 +1,57 @@
+.cuisines-ul
+{
+    list-style-type: circle;
+}
+.cuisines-ul li
+{
+    float: left;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.more-info
+{
+    display: flex;
+    font-size: 20px;
+}
+.buffet-menu, .brunch
+{
+    display:flex
+}
+.buffet-menu h3, .brunch-h2
+{
+    color: rgb(165, 93, 0);
+}
+.brunch-container
+{
+    margin-left: 34px;
+}
+.top-images
+{
+    display: flex;
+}
+.top-images div
+{
+    padding-right: 20px;
+}
+.mini-img
+{ 
+    width: 200px;
+    height: 200px;
+}
+.container
+{
+    max-width: 600px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery
+{
+    margin:5px;
+    float:left;
+    width: 192px;
+}
+.gallery img
+{
+    width: 100%;
+    height: auto;
+}

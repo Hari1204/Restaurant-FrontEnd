@@ -1,0 +1,23 @@
+ul 
+{ 
+    list-style-type: none; font-size: 18px; 
+} 
+.phone 
+{ 
+    margin-top: 8px; width: 16px; 
+} 
+.email 
+{ 
+    margin-top: 8px; width: 18px
+}
+.other
+{
+    font-size: 24px;
+    margin: 0 45% 0 40%;
+}
+.other-branches
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

@@ -1,0 +1,36 @@
+*html
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    color: white;    
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(50, 11, 77), rgb(156, 77, 247));
+    padding: 40px 0 30px 0;
+}
+.name
+{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    float: left;
+    padding-right: 40px;
+}
+a
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: rgb(229, 194, 147);
+    text-shadow: 2px 2px 5px black;
+}

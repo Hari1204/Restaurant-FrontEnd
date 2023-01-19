@@ -1,0 +1,66 @@
+<app-nav></app-nav>
+<html>
+    <body>
+        <div class="booking">
+        <div class="gif">
+        <img src="https://www.animatedimages.org/data/media/92/animated-cook-and-chef-image-0053.gif">
+        </div>
+        <div>
+        <div class="bookform">
+        <div class ="top-pickers">
+        <label>Pick Date :</label>
+        <input type="date" id="userdate" name="userdate" (change)="getDate($event)">
+        <label>Pick Time :</label>
+        <select id="usertime" (change)="getTime($event)">
+            <option>Pick Time</option>
+            <option value="10:00:00">10:00 AM</option>
+            <option value="10:30:00">10:30 AM</option>
+            <option value="11:00:00">11:00 AM</option>
+            <option value="11:30:00">11:30 AM</option>
+            <option value="12:00:00">12:00 PM</option>
+            <option value="12:30:00">12:30 PM</option>
+            <option value="13:00:00">01:00 PM</option>
+            <option value="13:30:00">01:30 PM</option>
+            <option value="14:00:00">02:00 PM</option>
+            <option value="14:30:00">02:30 PM</option>
+            <option value="15:00:00">03:00 PM</option>
+            <option value="15:30:00">03:30 PM</option>
+            <option value="16:00:00">04:00 PM</option>
+            <option value="16:30:00">04:30 PM</option>
+            <option value="17:00:00">05:00 PM</option>
+            <option value="17:30:00">05:30 PM</option>
+            <option value="18:00:00">06:00 PM</option>
+            <option value="18:30:00">06:30 PM</option>
+            <option value="19:00:00">07:00 PM</option>
+            <option value="19:30:00">07:30 PM</option>
+            <option value="20:00:00">08:00 PM</option>
+            <option value="20:30:00">08:30 PM</option>
+            <option value="21:00:00">09:00 PM</option>
+            <option value="21:30:00">09:30 PM</option>
+            <option value="22:00:00">10:00 PM</option>
+            <option value="22:30:00">10:30 PM</option>
+        </select>
+        </div>
+        
+        <form #bookingform="ngForm">
+            <label>Date</label>
+            <input id="bookdate" name="bookdate" [(ngModel)]="user.bookdate" type="date" placeholder="Pick from above" readonly>
+            <label>Time</label>
+            <input id="booktime" name="booktime" [(ngModel)]="user.booktime" type="time" placeholder="Pick from above" readonly>
+            <label>Guest Name</label>
+            <input name="name" [(ngModel)]="user.name" type="text" placeholder="Enter Name">
+            <label>Number of persons</label>
+            <input name="person" [(ngModel)]="user.person" type="number" placeholder="Enter number of persons">
+            <label>Mobile Number</label>
+            <input name="phoneNumber" type="tel" [(ngModel)]="user.phoneNumber" placeholder="Enter Mobile Number">
+            <button type="submit" (click)="bookTable(bookingform.value)">Submit</button>
+        </form>
+        </div>
+        </div>
+        <div class="gif">
+            <img src="https://media.tenor.com/ba7gafSyuEAAAAAM/tasty-hills-my-tona.gif">
+        </div>
+        </div>
+        <br>
+    </body>
+</html>
